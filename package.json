@@ -1,0 +1,23 @@
+{
+  "name": "pulseflow-monorepo",
+  "version": "1.0.0",
+  "description": "PulseFlow - Enterprise Project Management & Bug Tracking Platform",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "project-management",
+    "bug-tracker",
+    "linear",
+    "jira",
+    "kanban",
+    "adsense"
+  ],
+  "author": "PulseFlow Team",
+  "license": "ISC"
+}

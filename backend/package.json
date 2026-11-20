@@ -1,0 +1,27 @@
+{
+  "name": "pulseflow-backend",
+  "version": "1.0.0",
+  "description": "PulseFlow Enterprise Project Management & Bug Tracking API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "node src/scripts/test-api.js"
+  },
+  "keywords": ["project-management", "bug-tracker", "kanban", "saas", "adsense"],
+  "author": "PulseFlow Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.9",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1"
+  }
+}
